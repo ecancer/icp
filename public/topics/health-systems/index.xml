@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health Systems on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/topics/health-systems/</link>
+    <link>http://localhost:1313/topics/health-systems/</link>
     <description>Recent content in Health Systems on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/icp-site/topics/health-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/topics/health-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bridging the cancer treatment gap in sub-Saharan Africa</title>
-      <link>http://localhost:1313/icp-site/research/cancer-treatment-gap-africa/</link>
+      <link>http://localhost:1313/research/cancer-treatment-gap-africa/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/research/cancer-treatment-gap-africa/</guid>
+      <guid>http://localhost:1313/research/cancer-treatment-gap-africa/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Despite accounting for more than 70% of global cancer deaths, sub-Saharan Africa has fewer than 30 radiotherapy machines per 100 million people — compared with over 400 in high-income countries. This paper presents a policy framework for closing that gap, drawing on health systems analysis across 12 countries.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;The cancer care crisis in sub-Saharan Africa is characterised by late-stage diagnosis, limited treatment infrastructure, and a severe shortage of trained oncology professionals. Radiotherapy — essential for treating more than 50% of cancer patients — remains inaccessible to the majority.&lt;/p&gt;</description>
     </item>
     <item>
       <title>State of Cancer Policy: global inequities and the path forward</title>
-      <link>http://localhost:1313/icp-site/policy/state-of-cancer-policy-2025/</link>
+      <link>http://localhost:1313/policy/state-of-cancer-policy-2025/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/policy/state-of-cancer-policy-2025/</guid>
+      <guid>http://localhost:1313/policy/state-of-cancer-policy-2025/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The 2025 State of Cancer Policy report is the Institute&amp;rsquo;s annual assessment of the global cancer policy landscape. This year&amp;rsquo;s edition focuses on the widening equity gap in cancer outcomes — a divide that is not inevitable, but political.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-findings&#34;&gt;Key findings&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;The mortality gap is growing.&lt;/strong&gt; Age-standardised cancer mortality rates in low-income countries now exceed those in high-income countries by a factor of 3.4 — up from 2.8 in 2015. This is not primarily a function of incidence. It reflects differential access to diagnosis, treatment, and palliative care.&lt;/p&gt;</description>
     </item>
   </channel>

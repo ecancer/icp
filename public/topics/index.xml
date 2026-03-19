@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/topics/</link>
+    <link>http://localhost:1313/topics/</link>
     <description>Recent content in Topics on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/icp-site/topics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Drug Pricing</title>
-      <link>http://localhost:1313/icp-site/topics/drug-pricing/</link>
+      <link>http://localhost:1313/topics/drug-pricing/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/drug-pricing/</guid>
+      <guid>http://localhost:1313/topics/drug-pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Europe</title>
-      <link>http://localhost:1313/icp-site/topics/europe/</link>
+      <link>http://localhost:1313/topics/europe/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/europe/</guid>
+      <guid>http://localhost:1313/topics/europe/</guid>
       <description></description>
     </item>
     <item>
       <title>Health Economics</title>
-      <link>http://localhost:1313/icp-site/topics/health-economics/</link>
+      <link>http://localhost:1313/topics/health-economics/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/health-economics/</guid>
+      <guid>http://localhost:1313/topics/health-economics/</guid>
       <description></description>
     </item>
     <item>
       <title>HTA</title>
-      <link>http://localhost:1313/icp-site/topics/hta/</link>
+      <link>http://localhost:1313/topics/hta/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/hta/</guid>
+      <guid>http://localhost:1313/topics/hta/</guid>
       <description></description>
     </item>
     <item>
       <title>Global Access</title>
-      <link>http://localhost:1313/icp-site/topics/global-access/</link>
+      <link>http://localhost:1313/topics/global-access/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/global-access/</guid>
+      <guid>http://localhost:1313/topics/global-access/</guid>
       <description></description>
     </item>
     <item>
       <title>Health Systems</title>
-      <link>http://localhost:1313/icp-site/topics/health-systems/</link>
+      <link>http://localhost:1313/topics/health-systems/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/health-systems/</guid>
+      <guid>http://localhost:1313/topics/health-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Radiotherapy</title>
-      <link>http://localhost:1313/icp-site/topics/radiotherapy/</link>
+      <link>http://localhost:1313/topics/radiotherapy/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/radiotherapy/</guid>
+      <guid>http://localhost:1313/topics/radiotherapy/</guid>
       <description></description>
     </item>
     <item>
       <title>Sub-Saharan Africa</title>
-      <link>http://localhost:1313/icp-site/topics/sub-saharan-africa/</link>
+      <link>http://localhost:1313/topics/sub-saharan-africa/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/sub-saharan-africa/</guid>
+      <guid>http://localhost:1313/topics/sub-saharan-africa/</guid>
       <description></description>
     </item>
     <item>
       <title>Global Health Law</title>
-      <link>http://localhost:1313/icp-site/topics/global-health-law/</link>
+      <link>http://localhost:1313/topics/global-health-law/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/global-health-law/</guid>
+      <guid>http://localhost:1313/topics/global-health-law/</guid>
       <description></description>
     </item>
     <item>
       <title>Prevention Policy</title>
-      <link>http://localhost:1313/icp-site/topics/prevention-policy/</link>
+      <link>http://localhost:1313/topics/prevention-policy/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/prevention-policy/</guid>
+      <guid>http://localhost:1313/topics/prevention-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Tobacco Control</title>
-      <link>http://localhost:1313/icp-site/topics/tobacco-control/</link>
+      <link>http://localhost:1313/topics/tobacco-control/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/tobacco-control/</guid>
+      <guid>http://localhost:1313/topics/tobacco-control/</guid>
       <description></description>
     </item>
     <item>
       <title>WHO FCTC</title>
-      <link>http://localhost:1313/icp-site/topics/who-fctc/</link>
+      <link>http://localhost:1313/topics/who-fctc/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/who-fctc/</guid>
+      <guid>http://localhost:1313/topics/who-fctc/</guid>
       <description></description>
     </item>
     <item>
       <title>Cancer Equity</title>
-      <link>http://localhost:1313/icp-site/topics/cancer-equity/</link>
+      <link>http://localhost:1313/topics/cancer-equity/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/cancer-equity/</guid>
+      <guid>http://localhost:1313/topics/cancer-equity/</guid>
       <description></description>
     </item>
     <item>
       <title>LMIC</title>
-      <link>http://localhost:1313/icp-site/topics/lmic/</link>
+      <link>http://localhost:1313/topics/lmic/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/lmic/</guid>
+      <guid>http://localhost:1313/topics/lmic/</guid>
       <description></description>
     </item>
     <item>
       <title>European Union</title>
-      <link>http://localhost:1313/icp-site/topics/european-union/</link>
+      <link>http://localhost:1313/topics/european-union/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/european-union/</guid>
+      <guid>http://localhost:1313/topics/european-union/</guid>
       <description></description>
     </item>
     <item>
       <title>Cancer and Development</title>
-      <link>http://localhost:1313/icp-site/topics/cancer-and-development/</link>
+      <link>http://localhost:1313/topics/cancer-and-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/cancer-and-development/</guid>
+      <guid>http://localhost:1313/topics/cancer-and-development/</guid>
       <description></description>
     </item>
     <item>
       <title>European Health Law</title>
-      <link>http://localhost:1313/icp-site/topics/european-health-law/</link>
+      <link>http://localhost:1313/topics/european-health-law/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/european-health-law/</guid>
+      <guid>http://localhost:1313/topics/european-health-law/</guid>
       <description></description>
     </item>
     <item>
       <title>Global Cancer Policy</title>
-      <link>http://localhost:1313/icp-site/topics/global-cancer-policy/</link>
+      <link>http://localhost:1313/topics/global-cancer-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/global-cancer-policy/</guid>
+      <guid>http://localhost:1313/topics/global-cancer-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Health Systems in Conflict</title>
-      <link>http://localhost:1313/icp-site/topics/health-systems-in-conflict/</link>
+      <link>http://localhost:1313/topics/health-systems-in-conflict/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/health-systems-in-conflict/</guid>
+      <guid>http://localhost:1313/topics/health-systems-in-conflict/</guid>
       <description></description>
     </item>
     <item>
       <title>Health Technology Assessment</title>
-      <link>http://localhost:1313/icp-site/topics/health-technology-assessment/</link>
+      <link>http://localhost:1313/topics/health-technology-assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/health-technology-assessment/</guid>
+      <guid>http://localhost:1313/topics/health-technology-assessment/</guid>
       <description></description>
     </item>
     <item>
       <title>LMIC Access</title>
-      <link>http://localhost:1313/icp-site/topics/lmic-access/</link>
+      <link>http://localhost:1313/topics/lmic-access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/lmic-access/</guid>
+      <guid>http://localhost:1313/topics/lmic-access/</guid>
       <description></description>
     </item>
     <item>
       <title>Pharmaceutical Policy</title>
-      <link>http://localhost:1313/icp-site/topics/pharmaceutical-policy/</link>
+      <link>http://localhost:1313/topics/pharmaceutical-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/topics/pharmaceutical-policy/</guid>
+      <guid>http://localhost:1313/topics/pharmaceutical-policy/</guid>
       <description></description>
     </item>
   </channel>

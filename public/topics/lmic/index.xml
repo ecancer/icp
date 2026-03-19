@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LMIC on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/topics/lmic/</link>
+    <link>http://localhost:1313/topics/lmic/</link>
     <description>Recent content in LMIC on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/icp-site/topics/lmic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/topics/lmic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State of Cancer Policy: global inequities and the path forward</title>
-      <link>http://localhost:1313/icp-site/policy/state-of-cancer-policy-2025/</link>
+      <link>http://localhost:1313/policy/state-of-cancer-policy-2025/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/policy/state-of-cancer-policy-2025/</guid>
+      <guid>http://localhost:1313/policy/state-of-cancer-policy-2025/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The 2025 State of Cancer Policy report is the Institute&amp;rsquo;s annual assessment of the global cancer policy landscape. This year&amp;rsquo;s edition focuses on the widening equity gap in cancer outcomes — a divide that is not inevitable, but political.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-findings&#34;&gt;Key findings&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;The mortality gap is growing.&lt;/strong&gt; Age-standardised cancer mortality rates in low-income countries now exceed those in high-income countries by a factor of 3.4 — up from 2.8 in 2015. This is not primarily a function of incidence. It reflects differential access to diagnosis, treatment, and palliative care.&lt;/p&gt;</description>
     </item>
   </channel>

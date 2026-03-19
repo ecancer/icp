@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health Economics on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/topics/health-economics/</link>
+    <link>http://localhost:1313/topics/health-economics/</link>
     <description>Recent content in Health Economics on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/icp-site/topics/health-economics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/topics/health-economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dr. Kiu Adejoro</title>
-      <link>http://localhost:1313/icp-site/team/kiu-adejoro/</link>
+      <link>http://localhost:1313/team/kiu-adejoro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/team/kiu-adejoro/</guid>
+      <guid>http://localhost:1313/team/kiu-adejoro/</guid>
       <description>&lt;p&gt;Dr. Kiu Adejoro is a Senior Research Fellow at the Institute of Cancer Policy, specialising in the economics of cancer medicines and health technology assessment processes. Her research focuses on the structural drivers of drug access inequity — from HTA methodology to pricing negotiations and managed entry agreements.&lt;/p&gt;&#xA;&lt;p&gt;Before joining the Institute, Kiu worked as an economist at NICE and spent three years as a consultant to the WHO on pharmaceutical pricing policy. She holds a DPhil in Health Economics from the University of Oxford and an MSc in Global Health Policy from the London School of Hygiene and Tropical Medicine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The cost burden of cancer medicines in European health systems</title>
-      <link>http://localhost:1313/icp-site/research/cancer-medicines-cost-europe/</link>
+      <link>http://localhost:1313/research/cancer-medicines-cost-europe/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/research/cancer-medicines-cost-europe/</guid>
+      <guid>http://localhost:1313/research/cancer-medicines-cost-europe/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;Cancer drug spending in Europe has grown at an average of 11% per year for the past decade, yet access remains highly unequal across member states. This study analyses pricing and reimbursement mechanisms across 12 EU countries, identifies the key structural drivers of inequality, and proposes a framework for more equitable access.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;Health technology assessment (HTA) processes vary significantly across EU member states, leading to situations where patients in some countries wait years for access to drugs already reimbursed elsewhere. The European HTA Regulation, effective from 2025, provides a partial solution — but implementation gaps remain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A framework for cancer drug pricing reform in the European Union</title>
-      <link>http://localhost:1313/icp-site/policy/eu-drug-pricing-reform-2025/</link>
+      <link>http://localhost:1313/policy/eu-drug-pricing-reform-2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/policy/eu-drug-pricing-reform-2025/</guid>
+      <guid>http://localhost:1313/policy/eu-drug-pricing-reform-2025/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This policy brief, prepared at the request of the European Parliament Committee on Public Health, sets out the Institute&amp;rsquo;s proposals for reforming cancer drug pricing and health technology assessment across the EU in the context of the new Joint Clinical Assessment Regulation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;&#xA;&lt;p&gt;The EU&amp;rsquo;s new Joint Clinical Assessment (JCA) Regulation, which came into force in January 2025, harmonises the clinical evidence base for oncology drug reimbursement decisions. This is a significant step forward. But it addresses only half the problem.&lt;/p&gt;</description>
     </item>
   </channel>

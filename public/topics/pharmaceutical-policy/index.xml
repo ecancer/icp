@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pharmaceutical Policy on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/topics/pharmaceutical-policy/</link>
+    <link>http://localhost:1313/topics/pharmaceutical-policy/</link>
     <description>Recent content in Pharmaceutical Policy on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
-    <atom:link href="http://localhost:1313/icp-site/topics/pharmaceutical-policy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/topics/pharmaceutical-policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dr. Kiu Adejoro</title>
-      <link>http://localhost:1313/icp-site/team/kiu-adejoro/</link>
+      <link>http://localhost:1313/team/kiu-adejoro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/team/kiu-adejoro/</guid>
+      <guid>http://localhost:1313/team/kiu-adejoro/</guid>
       <description>&lt;p&gt;Dr. Kiu Adejoro is a Senior Research Fellow at the Institute of Cancer Policy, specialising in the economics of cancer medicines and health technology assessment processes. Her research focuses on the structural drivers of drug access inequity — from HTA methodology to pricing negotiations and managed entry agreements.&lt;/p&gt;&#xA;&lt;p&gt;Before joining the Institute, Kiu worked as an economist at NICE and spent three years as a consultant to the WHO on pharmaceutical pricing policy. She holds a DPhil in Health Economics from the University of Oxford and an MSc in Global Health Policy from the London School of Hygiene and Tropical Medicine.&lt;/p&gt;</description>
     </item>
   </channel>

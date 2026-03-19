@@ -1,6 +1,7 @@
-baseURL = "https://ecancer.github.io/icp-site/"
+baseURL = "https://github.io"
 languageCode = "en-GB"
 title = "Institute of Cancer Policy"
+canonifyURLs = true
 
 [params]
   description   = "We generate world-leading research to transform how cancer is prevented, diagnosed, and treated — and translate that evidence into lasting policy change."

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/icp-site/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/icp-site/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adejoro K</title>
-      <link>http://localhost:1313/icp-site/authors/adejoro-k/</link>
+      <link>http://localhost:1313/authors/adejoro-k/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/authors/adejoro-k/</guid>
+      <guid>http://localhost:1313/authors/adejoro-k/</guid>
       <description></description>
     </item>
     <item>
       <title>Henriksen M</title>
-      <link>http://localhost:1313/icp-site/authors/henriksen-m/</link>
+      <link>http://localhost:1313/authors/henriksen-m/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/authors/henriksen-m/</guid>
+      <guid>http://localhost:1313/authors/henriksen-m/</guid>
       <description></description>
     </item>
     <item>
       <title>Sullivan R</title>
-      <link>http://localhost:1313/icp-site/authors/sullivan-r/</link>
+      <link>http://localhost:1313/authors/sullivan-r/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/authors/sullivan-r/</guid>
+      <guid>http://localhost:1313/authors/sullivan-r/</guid>
       <description></description>
     </item>
     <item>
       <title>Mutebi M</title>
-      <link>http://localhost:1313/icp-site/authors/mutebi-m/</link>
+      <link>http://localhost:1313/authors/mutebi-m/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/icp-site/authors/mutebi-m/</guid>
+      <guid>http://localhost:1313/authors/mutebi-m/</guid>
       <description></description>
     </item>
   </channel>
