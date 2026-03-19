@@ -1,0 +1,20 @@
+# Hugo build output — never commit this, GitHub Actions rebuilds it
+public/
+resources/_gen/
+
+# Hugo local server cache
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets (if you ever add them)
+.env
+.env.local
