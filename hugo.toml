@@ -1,0 +1,53 @@
+baseURL = "https://ecancer.github.io/icp-site/"
+languageCode = "en-GB"
+title = "Institute of Cancer Policy"
+
+[params]
+  description   = "We generate world-leading research to transform how cancer is prevented, diagnosed, and treated — and translate that evidence into lasting policy change."
+  affiliation   = "King's College London"
+  address       = "Denmark Hill, London SE5 9RS"
+  email         = "icp@kcl.ac.uk"
+  director      = "Professor Richard Sullivan"
+  directorRole  = "Director, Institute of Cancer Policy · Professor of Cancer and Global Health, King's College London"
+  directorBio   = "Richard's research spans global cancer policy, health systems in conflict settings, and access to cancer care in low- and middle-income countries. He has led Lancet Commissions on global surgery, childhood cancer, and cancer care in Latin America, and advises the WHO, Save the Children, and the National Cancer Grid of India."
+  directorQuote = "Cancer is not simply a medical crisis — it is a failure of political will. We have the science. What the world needs now is the courage to act on it."
+  studyCount    = "120+"
+  countryCount  = "34"
+  policyCount   = "12"
+
+[menu]
+  [[menu.main]]
+    name   = "Research"
+    url    = "/research/"
+    weight = 1
+  [[menu.main]]
+    name   = "Policy"
+    url    = "/policy/"
+    weight = 2
+  [[menu.main]]
+    name   = "Events"
+    url    = "/events/"
+    weight = 3
+  [[menu.main]]
+    name   = "Team"
+    url    = "/team/"
+    weight = 4
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 5
+
+[taxonomies]
+  tag    = "tags"
+  topic  = "topics"
+  author = "authors"
+
+[outputs]
+  home    = ["HTML"]
+  section = ["HTML"]
+  page    = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

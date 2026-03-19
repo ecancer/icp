@@ -1,0 +1,31 @@
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    {{ .Site.Title }}
+    <span>{{ .Site.Params.affiliation }}</span>
+  </a>
+  <ul class="nav-links">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}" {{ if (eq $.RelPermalink .URL) }}class="active"{{ end }}>{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" onclick="icpToggleTheme()">
+      <span id="theme-icon">◑</span>
+    </button>
+    <button class="nav-cta" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">Stay in touch</button>
+  </div>
+</nav>
+
+<script>
+function icpToggleTheme() {
+  var html = document.documentElement;
+  var isDark = html.classList.toggle('dark');
+  localStorage.setItem('icp-theme', isDark ? 'dark' : 'light');
+  document.getElementById('theme-icon').textContent = isDark ? '○' : '●';
+}
+(function() {
+  var isDark = document.documentElement.classList.contains('dark');
+  var icon = document.getElementById('theme-icon');
+  if (icon) icon.textContent = isDark ? '○' : '●';
+})();
+</script>

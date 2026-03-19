@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow">
+    <span class="eyebrow-dot"></span>
+    {{ .Section | title }}
+  </p>
+  <h1 class="page-hero-title">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}<p class="page-hero-sub">{{ .Params.subtitle }}</p>{{ end }}
+</div>
+
+<section class="section">
+  {{ if .Params.filters }}
+  <div class="filters">
+    <button class="filter-btn active" onclick="filterCards(this,'all')">All</button>
+    {{ range .Params.filters }}
+    <button class="filter-btn" onclick="filterCards(this,'{{ . | urlize }}')">{{ . }}</button>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="cards-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="card" data-topic="{{ .Params.topic | urlize }}">
+      <div class="card-img card-img--{{ .Params.img_style | default "lmic" }}">
+        {{ partial "illustrations.html" (.Params.illustration | default "card-lmic") }}
+      </div>
+      <div class="card-body">
+        {{ if .Params.topic }}<p class="card-tag">{{ .Params.topic }}</p>{{ end }}
+        {{ if .Params.event_type }}<p class="card-tag">{{ .Params.event_type }}</p>{{ end }}
+        <h2 class="card-title">{{ .Title }}</h2>
+        <p class="card-excerpt">{{ .Params.excerpt | default (.Summary | truncate 130) }}</p>
+        <p class="card-meta">
+          {{ if .Params.date_display }}{{ .Params.date_display }}{{ end }}
+          {{ if .Params.journal }} · {{ .Params.journal }}{{ end }}
+          {{ if .Params.location }} · {{ .Params.location }}{{ end }}
+        </p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</section>
+
+<script>
+function filterCards(btn, topic) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.card').forEach(card => {
+    card.style.display = (topic === 'all' || card.dataset.topic === topic) ? '' : 'none';
+  });
+}
+</script>
+{{ end }}

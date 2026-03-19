@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section" style="padding:0;">
+  <div class="person-profile">
+    <div class="person-profile-img">
+      <div class="person-profile-avatar person-avatar--{{ .Params.avatar_colour | default "amber" }}" style="width:120px;height:120px;font-size:36px;">
+        {{ .Params.initials }}
+      </div>
+      <div style="text-align:center;">
+        <p style="font-weight:500;font-size:15px;">{{ .Title }}</p>
+        <p style="font-size:12px;color:var(--text-light);margin-top:4px;">{{ .Params.role }}</p>
+      </div>
+      {{ if .Params.email }}
+      <a href="mailto:{{ .Params.email }}" class="btn-ghost" style="font-size:12px;padding:8px 14px;">Email</a>
+      {{ end }}
+      {{ if .Params.orcid }}
+      <div style="font-size:11px;color:var(--text-light);text-align:center;">ORCID: {{ .Params.orcid }}</div>
+      {{ end }}
+    </div>
+    <div class="person-profile-content">
+      <p class="page-hero-eyebrow eyebrow" style="margin-bottom:12px;">
+        <span class="eyebrow-dot"></span>
+        <a href="/team/" style="color:inherit;">Team</a>
+      </p>
+      <h1 class="person-profile-name">{{ .Title }}</h1>
+      <p class="person-profile-role">{{ .Params.role }}</p>
+      <div class="person-profile-body">{{ .Content }}</div>
+      {{ if .Params.topics }}
+      <div style="margin-top:24px;">
+        {{ range .Params.topics }}<span class="sidebar-tag">{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

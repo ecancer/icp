@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow">
+    <span class="eyebrow-dot"></span>
+    <a href="/{{ .Section }}/" style="color:inherit;">{{ .Section | title }}</a>
+  </p>
+  <h1 class="page-hero-title">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}<p class="page-hero-sub">{{ .Params.subtitle }}</p>{{ end }}
+</div>
+
+<div class="article-layout">
+  <div class="article-body">
+    {{ .Content }}
+  </div>
+  <aside class="article-sidebar">
+    {{ if .Params.date_display }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Published</p>
+      <p class="sidebar-value">{{ .Params.date_display }}</p>
+    </div>
+    {{ end }}
+    {{ if .Params.journal }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Journal</p>
+      <p class="sidebar-value">{{ .Params.journal }}</p>
+    </div>
+    {{ end }}
+    {{ if .Params.authors }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Authors</p>
+      {{ range .Params.authors }}
+      <p class="sidebar-value">{{ . }}</p>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ if .Params.doi }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">DOI</p>
+      <p class="sidebar-value"><a href="https://doi.org/{{ .Params.doi }}" style="color:var(--blue-600);">{{ .Params.doi }}</a></p>
+    </div>
+    {{ end }}
+    {{ if .Params.topics }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Topics</p>
+      <div>{{ range .Params.topics }}<span class="sidebar-tag">{{ . }}</span>{{ end }}</div>
+    </div>
+    {{ end }}
+    {{ if .Params.pdf_url }}
+    <div class="sidebar-block">
+      <a href="{{ .Params.pdf_url }}" class="btn-blue" style="width:100%;text-align:center;display:block;">Download PDF</a>
+    </div>
+    {{ end }}
+    {{ if .Params.register_url }}
+    <div class="sidebar-block">
+      <a href="{{ .Params.register_url }}" class="btn-amber" style="width:100%;text-align:center;display:block;">Register now</a>
+    </div>
+    {{ end }}
+  </aside>
+</div>
+{{ end }}

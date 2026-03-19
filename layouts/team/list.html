@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow"><span class="eyebrow-dot"></span>Team</p>
+  <h1 class="page-hero-title">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}<p class="page-hero-sub">{{ .Params.subtitle }}</p>{{ end }}
+</div>
+
+<section class="section">
+  <div class="people-grid people-grid--4">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="person-card">
+      <div class="person-img-wrap" style="background:{{ .Params.avatar_bg | default "#FAEEDA" }};">
+        <div class="person-avatar person-avatar--{{ .Params.avatar_colour | default "amber" }}">
+          {{ .Params.initials }}
+        </div>
+      </div>
+      <div class="person-body">
+        <p class="person-name">{{ .Title }}</p>
+        <p class="person-role">{{ .Params.role }}</p>
+        <p class="person-focus">{{ .Params.focus }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow"><span class="eyebrow-dot"></span><a href="/events/" style="color:inherit;">Events</a></p>
+  <div class="event-detail-header">
+    <div>
+      <h1 class="page-hero-title">{{ .Title }}</h1>
+      <p class="page-hero-sub">{{ .Params.location }}</p>
+    </div>
+    <div class="event-detail-date-block">
+      <div class="event-detail-day">{{ .Params.day }}</div>
+      <div class="event-detail-month">{{ .Params.month }}</div>
+      <div class="event-detail-year">{{ .Params.year }}</div>
+    </div>
+  </div>
+</div>
+
+<div class="article-layout">
+  <div class="article-body">
+    {{ .Content }}
+  </div>
+  <aside class="article-sidebar">
+    <div class="sidebar-block">
+      <p class="sidebar-label">Event type</p>
+      <p class="sidebar-value">{{ .Params.event_type }}</p>
+    </div>
+    <div class="sidebar-block">
+      <p class="sidebar-label">Date</p>
+      <p class="sidebar-value">{{ .Params.day }} {{ .Params.month }} {{ .Params.year }}</p>
+    </div>
+    {{ if .Params.time }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Time</p>
+      <p class="sidebar-value">{{ .Params.time }}</p>
+    </div>
+    {{ end }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Location</p>
+      <p class="sidebar-value">{{ .Params.location }}</p>
+    </div>
+    {{ if .Params.register_url }}
+    <div class="sidebar-block">
+      <a href="{{ .Params.register_url }}" class="btn-amber" style="width:100%;text-align:center;display:block;">Register now</a>
+    </div>
+    {{ end }}
+    {{ if .Params.contact_email }}
+    <div class="sidebar-block">
+      <p class="sidebar-label">Enquiries</p>
+      <p class="sidebar-value"><a href="mailto:{{ .Params.contact_email }}" style="color:var(--blue-600);">{{ .Params.contact_email }}</a></p>
+    </div>
+    {{ end }}
+  </aside>
+</div>
+{{ end }}

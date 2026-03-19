@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head><script src="/icp-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=icp-site/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A framework for cancer drug pricing reform in the European Union | Institute of Cancer Policy</title>
+<meta name="description" content="We generate world-leading research to transform how cancer is prevented, diagnosed, and treated — and translate that evidence into lasting policy change." />
+<meta property="og:title" content="A framework for cancer drug pricing reform in the European Union" />
+<meta property="og:description" content="We generate world-leading research to transform how cancer is prevented, diagnosed, and treated — and translate that evidence into lasting policy change." />
+<meta property="og:type" content="article" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/main.css" />
+
+
+  
+  <script>
+    (function() {
+      var stored = localStorage.getItem('icp-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var isDark = stored ? stored === 'dark' : prefersDark;
+      if (isDark) document.documentElement.classList.add('dark');
+      document.documentElement.classList.add('theme-loaded');
+    })();
+  </script>
+</head>
+<body>
+<div class="site">
+  <nav class="nav">
+  <a href="/" class="nav-logo">
+    Institute of Cancer Policy
+    <span>King&#39;s College London</span>
+  </a>
+  <ul class="nav-links">
+    
+    <li><a href="/icp-site/research/" >Research</a></li>
+    
+    <li><a href="/icp-site/policy/" >Policy</a></li>
+    
+    <li><a href="/icp-site/events/" >Events</a></li>
+    
+    <li><a href="/icp-site/team/" >Team</a></li>
+    
+    <li><a href="/icp-site/about/" >About</a></li>
+    
+  </ul>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" onclick="icpToggleTheme()">
+      <span id="theme-icon">◑</span>
+    </button>
+    <button class="nav-cta" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">Stay in touch</button>
+  </div>
+</nav>
+
+<script>
+function icpToggleTheme() {
+  var html = document.documentElement;
+  var isDark = html.classList.toggle('dark');
+  localStorage.setItem('icp-theme', isDark ? 'dark' : 'light');
+  document.getElementById('theme-icon').textContent = isDark ? '○' : '●';
+}
+(function() {
+  var isDark = document.documentElement.classList.contains('dark');
+  var icon = document.getElementById('theme-icon');
+  if (icon) icon.textContent = isDark ? '○' : '●';
+})();
+</script>
+
+  <main>
+    
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow">
+    <span class="eyebrow-dot"></span>
+    <a href="/policy/" style="color:inherit;">Policy</a>
+  </p>
+  <h1 class="page-hero-title">A framework for cancer drug pricing reform in the European Union</h1>
+  
+</div>
+
+<div class="article-layout">
+  <div class="article-body">
+    <h2 id="overview">Overview</h2>
+<p>This policy brief, prepared at the request of the European Parliament Committee on Public Health, sets out the Institute&rsquo;s proposals for reforming cancer drug pricing and health technology assessment across the EU in the context of the new Joint Clinical Assessment Regulation.</p>
+<h2 id="the-problem">The problem</h2>
+<p>The EU&rsquo;s new Joint Clinical Assessment (JCA) Regulation, which came into force in January 2025, harmonises the clinical evidence base for oncology drug reimbursement decisions. This is a significant step forward. But it addresses only half the problem.</p>
+<p>Pricing — determined through bilateral negotiations between manufacturers and individual member states — remains fragmented, opaque, and systematically disadvantageous to smaller and lower-income countries.</p>
+<h2 id="our-proposals">Our proposals</h2>
+<p><strong>A reference price corridor.</strong> We propose a mandatory price corridor within which member states must negotiate, anchored to GDP per capita and disease burden. This preserves flexibility while preventing the most extreme divergences.</p>
+<p><strong>Transparency in managed entry agreements.</strong> Confidential MEAs should be replaced with a standardised, EU-level reporting framework. Full pricing information should be accessible to all member states.</p>
+<p><strong>Pooled negotiating capacity.</strong> The EU should establish a standing negotiating body — analogous to COVAX for vaccines — that can negotiate on behalf of willing member states, particularly smaller nations lacking leverage.</p>
+<p><strong>Performance-linked pricing.</strong> Payments should be linked to real-world outcomes data collected through mandatory registry reporting, reducing uncertainty for payers and incentivising genuine clinical value.</p>
+
+  </div>
+  <aside class="article-sidebar">
+    
+    <div class="sidebar-block">
+      <p class="sidebar-label">Published</p>
+      <p class="sidebar-value">June 2025</p>
+    </div>
+    
+    
+    
+    
+    
+    <div class="sidebar-block">
+      <p class="sidebar-label">Topics</p>
+      <div><span class="sidebar-tag">Health economics</span><span class="sidebar-tag">Drug pricing</span><span class="sidebar-tag">HTA</span><span class="sidebar-tag">European Union</span></div>
+    </div>
+    
+    
+    <div class="sidebar-block">
+      <a href="/downloads/icp-eu-drug-pricing-reform-2025.pdf" class="btn-blue" style="width:100%;text-align:center;display:block;">Download PDF</a>
+    </div>
+    
+    
+  </aside>
+</div>
+
+  </main>
+  <section class="cta-band" id="newsletter">
+  <h2 class="cta-title">Join the <em>conversation</em></h2>
+  <p class="cta-subtitle">New research, policy briefings, and event invitations — straight to your inbox.</p>
+  
+  <form class="newsletter-form" action="#" method="POST" name="newsletter" netlify>
+    <input type="email" name="email" placeholder="Your email address" required />
+    <button type="submit" class="btn-amber">Subscribe</button>
+  </form>
+</section>
+
+  <footer class="footer">
+  <div>
+    <p class="footer-logo">Institute of Cancer Policy</p>
+    <p>King&#39;s College London · Denmark Hill, London SE5 9RS</p>
+    <p style="margin-top:4px;">© 2026 Institute of Cancer Policy</p>
+  </div>
+  <nav class="footer-links">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/press/">Press</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/accessibility/">Accessibility</a>
+  </nav>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow"><span class="eyebrow-dot"></span>Events</p>
+  <h1 class="page-hero-title">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}<p class="page-hero-sub">{{ .Params.subtitle }}</p>{{ end }}
+</div>
+
+<section class="section">
+  <div class="events-list">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="event-row">
+      <div class="event-date">
+        <div class="event-day">{{ .Params.day }}</div>
+        <div class="event-month">{{ .Params.month }}</div>
+      </div>
+      <div class="event-info">
+        <p class="event-title">{{ .Title }}</p>
+        <p class="event-location">{{ .Params.location }}</p>
+      </div>
+      <span class="event-badge event-badge--{{ .Params.badge_style | default "conference" }}">{{ .Params.event_type }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

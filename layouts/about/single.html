@@ -1,0 +1,77 @@
+{{ define "main" }}
+<div class="page-hero">
+  <p class="page-hero-eyebrow eyebrow"><span class="eyebrow-dot"></span>About</p>
+  <h1 class="page-hero-title">{{ .Title }}</h1>
+  {{ if .Params.subtitle }}<p class="page-hero-sub">{{ .Params.subtitle }}</p>{{ end }}
+</div>
+
+<div class="about-intro">
+  <div class="about-intro-text">
+    {{ .Content }}
+  </div>
+  <div class="about-stat-stack">
+    <div class="about-stat">
+      <div class="about-stat-num">{{ .Site.Params.studyCount }}</div>
+      <div class="about-stat-label">Published studies</div>
+    </div>
+    <div class="about-stat">
+      <div class="about-stat-num">{{ .Site.Params.countryCount }}</div>
+      <div class="about-stat-label">Countries reached</div>
+    </div>
+    <div class="about-stat">
+      <div class="about-stat-num">{{ .Site.Params.policyCount }}</div>
+      <div class="about-stat-label">Policy frameworks shaped</div>
+    </div>
+  </div>
+</div>
+
+<section class="section" id="pillars">
+  <div class="section-header">
+    <h2 class="section-title">Our three pillars</h2>
+  </div>
+  <div class="pillars-grid">
+    <div class="pillar">
+      <div class="pillar-icon pillar-icon--amber">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="14" height="14" rx="2" stroke="#BA7517" stroke-width="1.5"/><line x1="7" y1="7" x2="13" y2="7" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round"/><line x1="7" y1="10" x2="13" y2="10" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round"/><line x1="7" y1="13" x2="10" y2="13" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Research &amp; evidence</h3>
+      <p>We produce world-leading, peer-reviewed research that generates the evidence base policymakers need to act with confidence.</p>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon pillar-icon--blue">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="#185FA5" stroke-width="1.5"/><line x1="10" y1="3" x2="10" y2="17" stroke="#185FA5" stroke-width="1.5"/><line x1="3" y1="10" x2="17" y2="10" stroke="#185FA5" stroke-width="1.5"/></svg>
+      </div>
+      <h3>Policy translation</h3>
+      <p>We translate research into clear, actionable recommendations for governments, international bodies, and health systems.</p>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon pillar-icon--teal">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3 L17 8 L17 17 L3 17 L3 8 Z" stroke="#0F6E56" stroke-width="1.5" stroke-linejoin="round"/><line x1="10" y1="12" x2="10" y2="17" stroke="#0F6E56" stroke-width="1.5"/></svg>
+      </div>
+      <h3>Capacity building</h3>
+      <p>We train the next generation of cancer policy researchers and practitioners, with a particular focus on LMIC institutions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="programmes">
+  <div class="section-header">
+    <h2 class="section-title">Field programmes</h2>
+  </div>
+  <div class="field-feature">
+    <div class="field-img">
+      {{ partial "illustrations.html" "field" }}
+      <span class="field-img-tag">LMIC field programme</span>
+    </div>
+    <div class="field-body">
+      <p class="field-kicker">Low- and middle-income countries</p>
+      <h2 class="field-title">Taking cancer policy where it's needed most</h2>
+      <p class="field-desc">More than 70% of cancer deaths occur in low- and middle-income countries, yet most cancer research and policy expertise remains concentrated in the Global North. Our field programmes partner directly with ministries of health, regional cancer networks, and frontline clinicians.</p>
+      <div class="field-actions">
+        <a href="/policy/" class="btn-blue">Read the field report</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

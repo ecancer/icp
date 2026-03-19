@@ -1,0 +1,178 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-left">
+    <div>
+      <p class="hero-eyebrow eyebrow">
+        <span class="eyebrow-dot"></span>
+        Shaping cancer policy, worldwide
+      </p>
+      <h1 class="hero-title">Evidence that <em>moves</em><br>the world to act</h1>
+      <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+      <div class="hero-actions">
+        <a href="/research/" class="btn-amber">Explore our research</a>
+        <a href="/policy/" class="btn-amber-ghost">Read our latest report →</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">{{ .Site.Params.studyCount }}</div>
+        <div class="stat-label">Published studies</div>
+      </div>
+      <div>
+        <div class="stat-num">{{ .Site.Params.countryCount }}</div>
+        <div class="stat-label">Countries reached</div>
+      </div>
+      <div>
+        <div class="stat-num">{{ .Site.Params.policyCount }}</div>
+        <div class="stat-label">Policy frameworks shaped</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-img">
+    {{ partial "illustrations.html" "hero" }}
+  </div>
+</section>
+
+<!-- Director band -->
+<section class="director-band">
+  <div class="director-img">
+    {{ partial "illustrations.html" "director" }}
+  </div>
+  <div class="director-content">
+    <p class="director-kicker eyebrow">
+      <span class="eyebrow-dash"></span>
+      A message from our director
+    </p>
+    <blockquote class="director-quote">{{ .Site.Params.directorQuote }}</blockquote>
+    <p class="director-name">{{ .Site.Params.director }}</p>
+    <p class="director-role">{{ .Site.Params.directorRole }}</p>
+    <p class="director-bio">{{ .Site.Params.directorBio }}</p>
+  </div>
+</section>
+
+<!-- Recent research -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Recent research</h2>
+    <a href="/research/" class="section-link">View all publications →</a>
+  </div>
+  <div class="cards-grid">
+    {{ $research := where .Site.RegularPages "Section" "research" }}
+    {{ range first 3 $research }}
+    <a href="{{ .RelPermalink }}" class="card">
+      <div class="card-img card-img--{{ .Params.img_style | default "lmic" }}">
+        {{ partial "illustrations.html" (.Params.illustration | default "card-lmic") }}
+      </div>
+      <div class="card-body">
+        <p class="card-tag">{{ .Params.topic }}</p>
+        <h3 class="card-title">{{ .Title }}</h3>
+        <p class="card-excerpt">{{ .Params.excerpt | default (.Summary | truncate 120) }}</p>
+        <p class="card-meta">{{ .Params.date_display }} · {{ .Params.journal }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Field feature -->
+<section class="section section--alt">
+  <div class="section-header">
+    <h2 class="section-title">Our work in the field</h2>
+    <a href="/about/#programmes" class="section-link">All programmes →</a>
+  </div>
+  <div class="field-feature">
+    <div class="field-img">
+      {{ partial "illustrations.html" "field" }}
+      <span class="field-img-tag">LMIC field programme</span>
+    </div>
+    <div class="field-body">
+      <p class="field-kicker">Low- and middle-income countries</p>
+      <h2 class="field-title">Taking cancer policy where it's needed most</h2>
+      <p class="field-desc">More than 70% of cancer deaths occur in low- and middle-income countries, yet most cancer research and policy expertise remains concentrated in the Global North. Our field programmes work directly with health ministries, clinicians, and communities to build systems that last.</p>
+      <div class="field-actions">
+        <a href="/about/#programmes" class="btn-blue">Our programmes</a>
+        <a href="/policy/" class="btn-ghost">2025 field report →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured policy report -->
+<section class="section">
+  {{ $reports := where .Site.RegularPages "Section" "policy" }}
+  {{ with (index $reports 0) }}
+  <div class="section-header">
+    <h2 class="section-title">Featured policy report</h2>
+    <a href="/policy/" class="section-link">All reports →</a>
+  </div>
+  <div class="report-featured">
+    <div class="report-featured-visual">
+      <div>
+        <p class="report-featured-label">Annual flagship report</p>
+        <h3 class="report-featured-title">{{ .Title }}</h3>
+      </div>
+      <div class="report-featured-year">{{ .Params.year | default "2025" }}</div>
+    </div>
+    <div class="report-featured-body">
+      <p class="report-featured-desc">{{ .Params.excerpt | default .Summary }}</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        {{ if .Params.pdf_url }}<a href="{{ .Params.pdf_url }}" class="btn-blue">Download PDF</a>{{ end }}
+        <a href="{{ .RelPermalink }}" class="btn-ghost">Read summary →</a>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Team -->
+<section class="section section--alt">
+  <div class="section-header">
+    <h2 class="section-title">Our people</h2>
+    <a href="/team/" class="section-link">Meet the full team →</a>
+  </div>
+  <div class="people-grid">
+    {{ $team := where .Site.RegularPages "Section" "team" }}
+    {{ range first 3 $team }}
+    <a href="{{ .RelPermalink }}" class="person-card">
+      <div class="person-img-wrap" style="background:{{ .Params.avatar_bg | default "#FAEEDA" }};">
+        <div class="person-avatar person-avatar--{{ .Params.avatar_colour | default "amber" }}">
+          {{ .Params.initials }}
+        </div>
+      </div>
+      <div class="person-body">
+        <p class="person-name">{{ .Title }}</p>
+        <p class="person-role">{{ .Params.role }}</p>
+        <p class="person-focus">{{ .Params.focus }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Upcoming events -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Upcoming events</h2>
+    <a href="/events/" class="section-link">Full calendar →</a>
+  </div>
+  <div class="events-list">
+    {{ $events := where .Site.RegularPages "Section" "events" }}
+    {{ range first 3 $events }}
+    <a href="{{ .RelPermalink }}" class="event-row">
+      <div class="event-date">
+        <div class="event-day">{{ .Params.day }}</div>
+        <div class="event-month">{{ .Params.month }}</div>
+      </div>
+      <div class="event-info">
+        <p class="event-title">{{ .Title }}</p>
+        <p class="event-location">{{ .Params.location }}</p>
+      </div>
+      <span class="event-badge event-badge--{{ .Params.badge_style | default "conference" }}">{{ .Params.event_type }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
