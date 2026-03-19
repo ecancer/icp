@@ -2,124 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/team/richard-sullivan/</loc>
+    <loc>http://localhost:1313/icp/team/richard-sullivan/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/kiu-adejoro/</loc>
+    <loc>http://localhost:1313/icp/team/kiu-adejoro/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/maria-henriksen/</loc>
+    <loc>http://localhost:1313/icp/team/maria-henriksen/</loc>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
+    <loc>http://localhost:1313/icp/events/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/icp/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/adejoro-k/</loc>
+    <loc>http://localhost:1313/icp/authors/adejoro-k/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/icp/authors/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/drug-pricing/</loc>
+    <loc>http://localhost:1313/icp/topics/drug-pricing/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/europe/</loc>
+    <loc>http://localhost:1313/icp/topics/europe/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/health-economics/</loc>
+    <loc>http://localhost:1313/icp/topics/health-economics/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/henriksen-m/</loc>
+    <loc>http://localhost:1313/icp/authors/henriksen-m/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/hta/</loc>
+    <loc>http://localhost:1313/icp/topics/hta/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>http://localhost:1313/icp/research/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/sullivan-r/</loc>
+    <loc>http://localhost:1313/icp/authors/sullivan-r/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/cancer-medicines-cost-europe/</loc>
+    <loc>http://localhost:1313/icp/research/cancer-medicines-cost-europe/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/</loc>
+    <loc>http://localhost:1313/icp/topics/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/cancer-treatment-gap-africa/</loc>
+    <loc>http://localhost:1313/icp/research/cancer-treatment-gap-africa/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/global-access/</loc>
+    <loc>http://localhost:1313/icp/topics/global-access/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/health-systems/</loc>
+    <loc>http://localhost:1313/icp/topics/health-systems/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/mutebi-m/</loc>
+    <loc>http://localhost:1313/icp/authors/mutebi-m/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/radiotherapy/</loc>
+    <loc>http://localhost:1313/icp/topics/radiotherapy/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/sub-saharan-africa/</loc>
+    <loc>http://localhost:1313/icp/topics/sub-saharan-africa/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/global-health-law/</loc>
+    <loc>http://localhost:1313/icp/topics/global-health-law/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/prevention-policy/</loc>
+    <loc>http://localhost:1313/icp/topics/prevention-policy/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/tobacco-control/</loc>
+    <loc>http://localhost:1313/icp/topics/tobacco-control/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/tobacco-control-fctc/</loc>
+    <loc>http://localhost:1313/icp/research/tobacco-control-fctc/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/who-fctc/</loc>
+    <loc>http://localhost:1313/icp/topics/who-fctc/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/cancer-equity/</loc>
+    <loc>http://localhost:1313/icp/topics/cancer-equity/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/lmic/</loc>
+    <loc>http://localhost:1313/icp/topics/lmic/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/policy/</loc>
+    <loc>http://localhost:1313/icp/policy/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/policy/state-of-cancer-policy-2025/</loc>
+    <loc>http://localhost:1313/icp/policy/state-of-cancer-policy-2025/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/policy/eu-drug-pricing-reform-2025/</loc>
+    <loc>http://localhost:1313/icp/policy/eu-drug-pricing-reform-2025/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/european-union/</loc>
+    <loc>http://localhost:1313/icp/topics/european-union/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/icp/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/cancer-and-development/</loc>
+    <loc>http://localhost:1313/icp/topics/cancer-and-development/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/contact/</loc>
+    <loc>http://localhost:1313/icp/about/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/european-health-law/</loc>
+    <loc>http://localhost:1313/icp/topics/european-health-law/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/global-cancer-policy/</loc>
+    <loc>http://localhost:1313/icp/topics/global-cancer-policy/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/health-systems-in-conflict/</loc>
+    <loc>http://localhost:1313/icp/topics/health-systems-in-conflict/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/health-technology-assessment/</loc>
+    <loc>http://localhost:1313/icp/topics/health-technology-assessment/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/lmic-access/</loc>
+    <loc>http://localhost:1313/icp/topics/lmic-access/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/</loc>
+    <loc>http://localhost:1313/icp/team/</loc>
   </url><url>
-    <loc>http://localhost:1313/topics/pharmaceutical-policy/</loc>
+    <loc>http://localhost:1313/icp/topics/pharmaceutical-policy/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/privacy/</loc>
+    <loc>http://localhost:1313/icp/about/privacy/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/icp/tags/</loc>
   </url>
 </urlset>

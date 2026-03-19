@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prevention Policy on Institute of Cancer Policy</title>
-    <link>http://localhost:1313/topics/prevention-policy/</link>
+    <link>http://localhost:1313/icp/topics/prevention-policy/</link>
     <description>Recent content in Prevention Policy on Institute of Cancer Policy</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/topics/prevention-policy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/icp/topics/prevention-policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dr. Maria Henriksen</title>
-      <link>http://localhost:1313/team/maria-henriksen/</link>
+      <link>http://localhost:1313/icp/team/maria-henriksen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/team/maria-henriksen/</guid>
+      <guid>http://localhost:1313/icp/team/maria-henriksen/</guid>
       <description>&lt;p&gt;Dr. Maria Henriksen is Policy Lead at the Institute of Cancer Policy, with expertise in European cancer legislation and global prevention policy. She leads the Institute&amp;rsquo;s work on tobacco control, alcohol harm reduction, and the regulation of risk factors for cancer.&lt;/p&gt;&#xA;&lt;p&gt;Maria has served as a policy advisor to the European Commission&amp;rsquo;s BECA (Beating Cancer) initiative and was a lead author of the European Cancer Inequalities Registry. She trained as a lawyer before completing a PhD in public health law at the University of Copenhagen and a fellowship at Harvard T.H. Chan School of Public Health.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tobacco control legislation: lessons from WHO FCTC signatories</title>
-      <link>http://localhost:1313/research/tobacco-control-fctc/</link>
+      <link>http://localhost:1313/icp/research/tobacco-control-fctc/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/tobacco-control-fctc/</guid>
+      <guid>http://localhost:1313/icp/research/tobacco-control-fctc/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The WHO Framework Convention on Tobacco Control (FCTC), now ratified by 182 countries, represents the world&amp;rsquo;s most widely adopted health treaty. Yet implementation remains uneven. This study assesses outcomes across 40 signatory nations over 20 years, identifies the legislative and enforcement factors that predict success, and draws lessons for other prevention policy domains.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;Tobacco use remains the world&amp;rsquo;s leading preventable cause of cancer death, responsible for approximately 2.5 million cancer deaths annually. The FCTC provides a comprehensive framework — but ratification does not guarantee implementation.&lt;/p&gt;</description>
     </item>
   </channel>
