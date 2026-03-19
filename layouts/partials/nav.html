@@ -3,29 +3,62 @@
     {{ .Site.Title }}
     <span>{{ .Site.Params.affiliation }}</span>
   </a>
-  <ul class="nav-links">
+
+  <ul class="nav-links" id="nav-links">
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}" {{ if (eq $.RelPermalink .URL) }}class="active"{{ end }}>{{ .Name }}</a></li>
     {{ end }}
   </ul>
-  <div style="display:flex;gap:10px;align-items:center;">
+
+  <div class="nav-right">
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" onclick="icpToggleTheme()">
       <span id="theme-icon">◑</span>
     </button>
-    <button class="nav-cta" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">Stay in touch</button>
+    <button class="nav-cta nav-cta--desktop" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">Stay in touch</button>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" onclick="icpToggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </nav>
 
+<!-- Mobile drawer -->
+<div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  <ul class="nav-drawer-links">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}" {{ if (eq $.RelPermalink .URL) }}class="active"{{ end }}>{{ .Name }}</a></li>
+    {{ end }}
+    <li class="nav-drawer-cta">
+      <button class="btn-amber" style="width:100%;" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'});icpToggleMenu()">Stay in touch</button>
+    </li>
+  </ul>
+</div>
+<div class="nav-overlay" id="nav-overlay" onclick="icpToggleMenu()"></div>
+
 <script>
-function icpToggleTheme() {
-  var html = document.documentElement;
-  var isDark = html.classList.toggle('dark');
-  localStorage.setItem('icp-theme', isDark ? 'dark' : 'light');
-  document.getElementById('theme-icon').textContent = isDark ? '○' : '●';
-}
-(function() {
-  var isDark = document.documentElement.classList.contains('dark');
-  var icon = document.getElementById('theme-icon');
-  if (icon) icon.textContent = isDark ? '○' : '●';
-})();
+  function icpToggleTheme() {
+    var html = document.documentElement;
+    var isDark = html.classList.toggle('dark');
+    localStorage.setItem('icp-theme', isDark ? 'dark' : 'light');
+    document.getElementById('theme-icon').textContent = isDark ? '○' : '●';
+  }
+
+  function icpToggleMenu() {
+    var drawer  = document.getElementById('nav-drawer');
+    var overlay = document.getElementById('nav-overlay');
+    var burger  = document.getElementById('nav-hamburger');
+    var open    = drawer.classList.toggle('is-open');
+    overlay.classList.toggle('is-open', open);
+    burger.classList.toggle('is-open', open);
+    burger.setAttribute('aria-expanded', open);
+    drawer.setAttribute('aria-hidden', !open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+
+  (function() {
+    var isDark = document.documentElement.classList.contains('dark');
+    var icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = isDark ? '○' : '●';
+  })();
 </script>
