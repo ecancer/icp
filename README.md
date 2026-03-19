@@ -152,6 +152,16 @@ with:
 | Team headshots | `team-[name].jpg` | 200×200px | Square (circle-cropped) |
 
 ---
+## Deployed using Github Pages
+
+The site is currently deployed to Github pages: https://ecancer.github.io/icp/
+
+Code is held in the ecancer repository in Github.
+
+Github Actions are set up (see .github/workflows/hugo.yaml) such that when you commit and push a change
+to the repository, the site is rebuilt automatically in Github.
+
+```git push origin master```  will deploy the changes.
 
 ## Deploying to Netlify
 
